@@ -1,0 +1,116 @@
+
+body {
+    margin: 0;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: open sans;
+    text-align: center;
+}
+
+.holder {
+    width: 80%;
+}
+
+.start {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 0 0 0;
+    font-size: 11px;
+}
+
+
+.logo {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.try {
+    color: hsl(321, 100%, 78%);
+    border: thin solid hsl(321, 100%, 78%);
+    border-radius: 20px;
+    padding: 7px 25px;
+}
+
+.second {
+    height: 45vh;
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+.build {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.7;
+    font-family: poppins;
+}
+
+
+.words {
+    color: hsl(192, 100%, 9%);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.get {
+    font-size: 12px;
+    font-weight: 400;
+    border: thin solid hsl(322, 100%, 66%);
+    border-radius: 30px;
+    padding: 13px 40px;
+    background-color: hsl(322, 100%, 66%);
+}
+
+.get > a {
+    color: white;
+}
+
+.third {
+    margin-top: 30%;
+}
+
+.mockup {
+    width: 90%;
+}
+
+.textHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textHolder > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.tiny {
+    width: 20%;
+}
+
+.bigText {
+    font-size: 30px;
+    margin: 0%;
+}
+
+.tinyText {
+    font-size: 15px;
+    color: hsl(192, 100%, 9%);
+}
+
+h1 {
+    margin: 0;
+}
